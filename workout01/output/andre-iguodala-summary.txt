@@ -1,0 +1,37 @@
+
+> summary(iguodala)
+  team_name          game_date          season        period      minutes_remaining
+ Length:371         Length:371         2016:371   Min.   :1.000   Min.   : 0.000   
+ Class :character   Class :character              1st Qu.:2.000   1st Qu.: 1.000   
+ Mode  :character   Mode  :character              Median :2.000   Median : 4.000   
+                                                  Mean   :2.518   Mean   : 4.582   
+                                                  3rd Qu.:4.000   3rd Qu.: 8.000   
+                                                  Max.   :4.000   Max.   :11.000   
+                                                                                   
+ seconds_remaining  shot_made_flag             action_type           shot_type  
+ Min.   : 0.00     n       :  0    Jump Shot         :179   2PT Field Goal:210  
+ 1st Qu.:10.00     y       :  0    Pullup Jump shot  : 34   3PT Field Goal:161  
+ Median :27.00     shot_yes:192    Running Layup Shot: 19                       
+ Mean   :26.75     shot_no :179    Running Dunk Shot : 18                       
+ 3rd Qu.:41.00                     Layup Shot        : 17                       
+ Max.   :59.00                     Cutting Dunk Shot : 16                       
+                                   (Other)           : 88                       
+ shot_distance     opponent               x                y             player         
+ Min.   : 0.00   Length:371         Min.   :-245.0   Min.   :-31.00   Length:371        
+ 1st Qu.: 1.00   Class :character   1st Qu.: -65.5   1st Qu.:  2.00   Class :character  
+ Median :18.00   Mode  :character   Median :   0.0   Median : 23.00   Mode  :character  
+ Mean   :13.69                      Mean   :   3.9   Mean   : 73.62                     
+ 3rd Qu.:24.00                      3rd Qu.: 101.5   3rd Qu.:150.00                     
+ Max.   :49.00                      Max.   : 238.0   Max.   :497.00                     
+                                                                                        
+     minute     
+ Min.   : 0.00  
+ 1st Qu.:12.00  
+ Median :23.00  
+ Mean   :22.79  
+ 3rd Qu.:36.00  
+ Max.   :47.00  
+                
+
+> # closing sinking operation
+> sink()
